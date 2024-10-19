@@ -1,11 +1,15 @@
+import Form from "./components/Form";
 import "./styles.css";
 
 function App() {
-    return (
-        <div>
-            <div>Hello world</div>
-        </div>
-    );
+  let statuses = ["empty", "typing", "submitting", "success", "error"];
+  return (
+    <>
+      {statuses.map((status) => (
+        <Form key={status} status={status} />
+      ))}
+    </>
+  );
 }
 
 export default App;
