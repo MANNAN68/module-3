@@ -1,10 +1,12 @@
-import Form from "./components/Form";
+import DynamicInput from "./components/DynamicInput";
 import "./styles.css";
 
 function App() {
   return (
     <>
-      <Form />
+      {/* <Form /> */}
+      {/* <Pointer /> */}
+      <DynamicInput />
     </>
   );
 }
