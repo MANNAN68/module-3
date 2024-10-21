@@ -1,12 +1,10 @@
-import Redundent from "./components/Redundent";
+import Menu from "./components/Travel";
 import "./styles.css";
 
 function App() {
   return (
     <>
-      {/* <Form /> */}
-      {/* <Pointer /> */}
-      <Redundent />
+      <Menu />
     </>
   );
 }
