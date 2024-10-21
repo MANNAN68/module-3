@@ -1,4 +1,4 @@
-import DynamicInput from "./components/DynamicInput";
+import Redundent from "./components/Redundent";
 import "./styles.css";
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
     <>
       {/* <Form /> */}
       {/* <Pointer /> */}
-      <DynamicInput />
+      <Redundent />
     </>
   );
 }
